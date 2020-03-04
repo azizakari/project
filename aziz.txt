@@ -1,0 +1,10 @@
+option 1 pour lister les differents point d'acces wif
+option 2 pour lister les points d'acces wifi par ordre décroissant d'intensité de signal
+option 3 pour desactiver le service NetworkManager
+option 4 pour configurer manuellement l'acces a un point d'acces qui doit figurer dans la liste precidante
+option 5 pour afficher le help
+
+
+
+iwconfig wlan0 essid NETWORK_NAME key WIRLESS_KEY
+dhclient wlan0
